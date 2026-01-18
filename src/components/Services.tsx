@@ -1,35 +1,40 @@
-import { Home, Key, FileText, TrendingUp, Briefcase, HeartHandshake } from "lucide-react";
+import { LandPlot, Home, Building, Construction, Building2, Tractor, ArrowLeftRight } from "lucide-react";
 
 const services = [
   {
+    icon: LandPlot,
+    title: "Open Plots",
+    description: "Premium open plots in prime locations across Hyderabad for your dream construction.",
+  },
+  {
     icon: Home,
-    title: "Property Sales",
-    description: "Expert guidance through every step of buying or selling your luxury property.",
+    title: "New Houses",
+    description: "Brand new ready-to-move houses with modern amenities and quality construction.",
   },
   {
-    icon: Key,
-    title: "Property Management",
-    description: "Comprehensive management services for your real estate investments.",
+    icon: Building,
+    title: "Resale Houses",
+    description: "Verified resale properties at competitive prices with clear documentation.",
   },
   {
-    icon: FileText,
-    title: "Legal Assistance",
-    description: "Complete documentation and legal support for seamless transactions.",
+    icon: Construction,
+    title: "On Going Booking Houses",
+    description: "Under-construction projects with flexible payment plans and early booking benefits.",
   },
   {
-    icon: TrendingUp,
-    title: "Investment Advisory",
-    description: "Strategic advice to maximize returns on your property investments.",
+    icon: Building2,
+    title: "Apartment Flats",
+    description: "Luxury and affordable apartment flats in gated communities across Hyderabad.",
   },
   {
-    icon: Briefcase,
-    title: "Corporate Relocations",
-    description: "Tailored solutions for executives and corporate housing needs.",
+    icon: Tractor,
+    title: "Agriculture Lands",
+    description: "Fertile agricultural lands with proper documentation for farming investments.",
   },
   {
-    icon: HeartHandshake,
-    title: "Concierge Services",
-    description: "White-glove service to make your property transition effortless.",
+    icon: ArrowLeftRight,
+    title: "Buy and Sale",
+    description: "Complete assistance for buying and selling all genuine properties in Hyderabad.",
   },
 ];
 
