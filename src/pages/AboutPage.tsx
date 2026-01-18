@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FloatingActions from "@/components/FloatingActions";
-import { Award, Users, Building2, Shield, Target, Heart } from "lucide-react";
+import { Users, Building2, Shield, Target, Heart, ThumbsUp } from "lucide-react";
 
 const values = [
   {
@@ -24,7 +24,8 @@ const values = [
 const stats = [
   { value: "100+", label: "Properties Sold" },
   { value: "10+", label: "Years Experience" },
-  { value: "50+", label: "Team Members" },
+  { value: "10+", label: "Team Members" },
+  { value: "100%", label: "Happy Clients" },
 ];
 
 const AboutPage = () => {
@@ -40,10 +41,10 @@ const AboutPage = () => {
               About Us
             </p>
             <h1 className="font-serif text-4xl md:text-6xl text-foreground mb-6">
-              Redefining Luxury Real Estate in Hyderabad
+              Your Trusted Real Estate Partner in Hyderabad
             </h1>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              For over 10 years, Veera Properties has been the trusted name in Hyderabad's premium real estate market. Our journey began with a simple vision—to help families find homes that inspire and investments that grow.
+              For over 10 years, Veera Properties has been the trusted name in Hyderabad's real estate market. Our journey began with a simple vision—to help families find homes that inspire and investments that grow.
             </p>
           </div>
         </div>
@@ -65,7 +66,7 @@ const AboutPage = () => {
                   Founded in 2015, Veera Properties started as a small family business with big dreams. Our founder, with deep roots in Hyderabad, understood that buying a home is more than a transaction—it's a life-changing decision.
                 </p>
                 <p>
-                  Today, we're proud to be one of Hyderabad's leading luxury real estate agencies. From the tree-lined avenues of Jubilee Hills to the modern towers of Hitech City, we've helped hundreds of families find their dream homes.
+                  Today, we're proud to be one of Hyderabad's leading real estate agencies. Across the city, we've helped hundreds of families find their dream homes and genuine properties.
                 </p>
                 <p>
                   Our success is built on one simple principle: treating every client like family. We take the time to understand your needs, preferences, and aspirations, ensuring that we find not just a house, but a home.
@@ -125,9 +126,9 @@ const AboutPage = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { icon: Award, title: "RERA Registered", desc: "All our properties are RERA compliant" },
+              { icon: ThumbsUp, title: "100% Genuine", desc: "All properties verified and genuine" },
               { icon: Users, title: "Local Expertise", desc: "Deep knowledge of Hyderabad market" },
-              { icon: Building2, title: "Exclusive Listings", desc: "Access to off-market properties" },
+              { icon: Building2, title: "All Property Types", desc: "Plots, houses, flats & lands" },
               { icon: Shield, title: "End-to-End Support", desc: "From search to registration" },
             ].map((item, index) => (
               <div key={index} className="p-6 bg-secondary rounded-lg group hover:shadow-card transition-all duration-300">

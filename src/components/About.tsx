@@ -1,20 +1,20 @@
-import { Award, Users, Building2, Shield } from "lucide-react";
+import { Users, Building2, Shield, ThumbsUp } from "lucide-react";
 
 const features = [
   {
-    icon: Award,
-    title: "Award Winning",
-    description: "Recognized as the top luxury real estate agency for 5 consecutive years.",
-  },
-  {
     icon: Users,
-    title: "Expert Team",
+    title: "10+ Team Members",
     description: "Our dedicated professionals bring decades of combined experience.",
   },
   {
+    icon: ThumbsUp,
+    title: "100% Happy Clients",
+    description: "Complete customer satisfaction with transparent dealings.",
+  },
+  {
     icon: Building2,
-    title: "Premium Portfolio",
-    description: "Access to exclusive off-market properties and pre-launch offerings.",
+    title: "All Property Types",
+    description: "Plots, houses, apartments, and agriculture lands available.",
   },
   {
     icon: Shield,
@@ -34,14 +34,14 @@ const About = () => {
               About Us
             </p>
             <h2 className="font-serif text-3xl md:text-5xl text-foreground mb-6">
-              Redefining Luxury
-              <span className="block text-gold">Real Estate</span>
+              Your Trusted
+              <span className="block text-gold">Real Estate Partner</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-              At Veera Properties, we understand that finding your dream home is more than a transaction—it's a life-changing decision. For over 10 years, we've been connecting discerning buyers with exceptional properties that reflect their aspirations and lifestyle.
+              At Veera Properties, we understand that finding your dream home is more than a transaction—it's a life-changing decision. For over 10 years, we've been connecting buyers with genuine properties in Hyderabad.
             </p>
             <p className="text-muted-foreground mb-8 leading-relaxed">
-              Our curated approach ensures that every property in our portfolio meets the highest standards of quality, design, and location. From stunning waterfront villas to prestigious city penthouses, we specialize in properties that define luxury living.
+              Our curated approach ensures that every property meets the highest standards of quality and legal verification. From open plots to luxury villas, we specialize in all types of genuine properties in Hyderabad.
             </p>
             <a
               href="#contact"
