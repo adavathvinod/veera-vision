@@ -1,38 +1,56 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FloatingActions from "@/components/FloatingActions";
-import { Home, Key, FileText, TrendingUp, Briefcase, HeartHandshake, Search, Shield } from "lucide-react";
+import { Home, Building, RefreshCw, Calendar, Building2, Trees, Handshake, FileText, Shield } from "lucide-react";
 
 const services = [
   {
     icon: Home,
-    title: "Property Sales",
-    description: "Expert guidance through every step of buying or selling your luxury property in Hyderabad.",
-    features: ["Market analysis", "Property valuation", "Negotiation support", "Closing assistance"],
+    title: "Open Plots",
+    description: "Premium open plots in prime locations across Hyderabad for building your dream home.",
+    features: ["Verified land titles", "Clear documentation", "Prime locations", "Flexible plot sizes"],
   },
   {
-    icon: Search,
-    title: "Property Search",
-    description: "Personalized property search based on your requirements, budget, and preferred locations.",
-    features: ["Curated listings", "Site visits", "Virtual tours", "Comparison reports"],
+    icon: Building,
+    title: "New Houses",
+    description: "Brand new ready-to-move houses with modern amenities and quality construction.",
+    features: ["Modern designs", "Quality construction", "Ready to move", "All amenities"],
   },
   {
-    icon: Key,
-    title: "Property Management",
-    description: "Comprehensive management services for your real estate investments in Hyderabad.",
-    features: ["Tenant screening", "Rent collection", "Maintenance", "Regular inspections"],
+    icon: RefreshCw,
+    title: "Resale Houses",
+    description: "Quality-verified resale properties at competitive prices in established localities.",
+    features: ["Verified properties", "Best prices", "Established areas", "Immediate possession"],
+  },
+  {
+    icon: Calendar,
+    title: "On Going Booking Houses",
+    description: "Book your dream home in upcoming projects with flexible payment plans.",
+    features: ["Early bird discounts", "Flexible payments", "Premium projects", "Best locations"],
+  },
+  {
+    icon: Building2,
+    title: "Apartment Flats",
+    description: "Modern apartment flats in gated communities with world-class amenities.",
+    features: ["Gated communities", "Modern amenities", "24/7 security", "Multiple options"],
+  },
+  {
+    icon: Trees,
+    title: "Agriculture Lands",
+    description: "Fertile agriculture lands and farmhouses in serene locations around Hyderabad.",
+    features: ["Fertile lands", "Good water source", "Farm houses", "Investment options"],
+  },
+  {
+    icon: Handshake,
+    title: "Buy and Sale",
+    description: "Complete buy and sale assistance with transparent dealings and legal support.",
+    features: ["Transparent deals", "Legal support", "Best prices", "Quick process"],
   },
   {
     icon: FileText,
     title: "Legal Assistance",
     description: "Complete documentation and legal support for seamless transactions.",
     features: ["Title verification", "Agreement drafting", "Registration support", "Due diligence"],
-  },
-  {
-    icon: TrendingUp,
-    title: "Investment Advisory",
-    description: "Strategic advice to maximize returns on your property investments.",
-    features: ["ROI analysis", "Market trends", "Portfolio planning", "Exit strategies"],
   },
   {
     icon: Shield,
@@ -55,10 +73,10 @@ const ServicesPage = () => {
               Our Services
             </p>
             <h1 className="font-serif text-4xl md:text-6xl text-foreground mb-6">
-              Comprehensive Real Estate Solutions
+              All Genuine Properties Available
             </h1>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              From property search to legal documentation, we offer end-to-end services to make your real estate journey in Hyderabad smooth and successful.
+              From open plots to apartment flats, we offer all types of properties in Hyderabad. Complete buy and sale assistance with transparent dealings.
             </p>
           </div>
         </div>

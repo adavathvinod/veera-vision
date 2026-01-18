@@ -1,9 +1,8 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { Bed, Bath, Maximize, MapPin } from "lucide-react";
 import { properties } from "@/data/properties";
 
-const areas = ["All", "Jubilee Hills", "Banjara Hills", "Gachibowli", "Kondapur", "Hitech City", "Shamirpet"];
+const areas = ["All", "Banjara Hills", "Kondapur", "Hitech City", "Shamirpet"];
 
 const PropertyGallery = () => {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -18,13 +17,13 @@ const PropertyGallery = () => {
         {/* Header */}
         <div className="text-center mb-12">
           <p className="text-gold font-medium tracking-[0.3em] uppercase text-sm mb-4">
-            Our Portfolio
+            Featured Properties
           </p>
           <h2 className="font-serif text-3xl md:text-5xl text-foreground mb-6">
-            Premium Properties in Hyderabad
+            Properties in Hyderabad
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Explore our handpicked selection of luxury homes across Hyderabad's most sought-after localities.
+            Explore our handpicked selection of genuine properties across Hyderabad.
           </p>
         </div>
 
@@ -48,9 +47,8 @@ const PropertyGallery = () => {
         {/* Properties Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredProperties.map((property) => (
-            <Link
+            <div
               key={property.id}
-              to={`/properties/${property.id}`}
               className="group bg-background rounded-lg overflow-hidden shadow-card hover:shadow-hover transition-all duration-500 hover:-translate-y-2"
             >
               {/* Image */}
@@ -97,18 +95,8 @@ const PropertyGallery = () => {
                   </div>
                 </div>
               </div>
-            </Link>
+            </div>
           ))}
-        </div>
-
-        {/* View All Button */}
-        <div className="text-center mt-12">
-          <Link
-            to="/properties"
-            className="inline-flex items-center px-8 py-4 border-2 border-foreground text-foreground font-medium tracking-wider uppercase rounded transition-all duration-300 hover:bg-foreground hover:text-background"
-          >
-            View All Properties
-          </Link>
         </div>
       </div>
     </section>
