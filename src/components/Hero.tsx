@@ -28,7 +28,7 @@ const Hero = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-up" style={{ animationDelay: "0.3s" }}>
             <Link
-              to="/properties"
+              to="/contact"
               className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-gradient-gold text-accent-foreground font-medium tracking-wider uppercase rounded transition-all duration-300 hover:shadow-hover hover:scale-105"
             >
               View Properties
@@ -47,11 +47,10 @@ const Hero = () => {
       {/* Stats Bar */}
       <div className="absolute bottom-0 left-0 right-0 bg-charcoal/90 backdrop-blur-sm border-t border-primary-foreground/10">
         <div className="container mx-auto px-6 py-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-3 gap-8">
             {[
-              { value: "500+", label: "Properties Sold" },
-              { value: "15+", label: "Years in Hyderabad" },
-              { value: "₹2000Cr+", label: "Portfolio Value" },
+              { value: "100+", label: "Properties Sold" },
+              { value: "10+", label: "Years in Hyderabad" },
               { value: "98%", label: "Happy Clients" },
             ].map((stat, index) => (
               <div key={index} className="text-center">
