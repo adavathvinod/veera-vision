@@ -1,20 +1,20 @@
-import { Users, Building2, Shield, Heart } from "lucide-react";
+import { Award, Users, Building2, Shield } from "lucide-react";
 
 const features = [
   {
+    icon: Award,
+    title: "Award Winning",
+    description: "Recognized as the top luxury real estate agency for 5 consecutive years.",
+  },
+  {
     icon: Users,
-    title: "10+ Team Members",
+    title: "Expert Team",
     description: "Our dedicated professionals bring decades of combined experience.",
   },
   {
-    icon: Heart,
-    title: "100% Happy Clients",
-    description: "Complete client satisfaction with personalized service and support.",
-  },
-  {
     icon: Building2,
-    title: "Genuine Properties",
-    description: "Access to verified properties with clear documentation.",
+    title: "Premium Portfolio",
+    description: "Access to exclusive off-market properties and pre-launch offerings.",
   },
   {
     icon: Shield,

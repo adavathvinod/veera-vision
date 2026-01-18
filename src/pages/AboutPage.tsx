@@ -24,8 +24,7 @@ const values = [
 const stats = [
   { value: "100+", label: "Properties Sold" },
   { value: "10+", label: "Years Experience" },
-  { value: "10+", label: "Team Members" },
-  { value: "100%", label: "Happy Clients" },
+  { value: "50+", label: "Team Members" },
 ];
 
 const AboutPage = () => {
@@ -66,7 +65,7 @@ const AboutPage = () => {
                   Founded in 2015, Veera Properties started as a small family business with big dreams. Our founder, with deep roots in Hyderabad, understood that buying a home is more than a transaction—it's a life-changing decision.
                 </p>
                 <p>
-                  Today, we're proud to be one of Hyderabad's leading real estate agencies. We've helped hundreds of families find their dream homes across all areas of Hyderabad.
+                  Today, we're proud to be one of Hyderabad's leading luxury real estate agencies. From the tree-lined avenues of Jubilee Hills to the modern towers of Hitech City, we've helped hundreds of families find their dream homes.
                 </p>
                 <p>
                   Our success is built on one simple principle: treating every client like family. We take the time to understand your needs, preferences, and aspirations, ensuring that we find not just a house, but a home.

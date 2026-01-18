@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { ArrowRight } from "lucide-react";
 import heroImage from "@/assets/hero-villa.jpg";
 
 const Hero = () => {
@@ -23,9 +24,16 @@ const Hero = () => {
             <span className="block text-gradient-gold">Home in Hyderabad</span>
           </h1>
           <p className="text-primary-foreground/80 text-lg md:text-xl max-w-xl mb-10 animate-fade-up" style={{ animationDelay: "0.2s" }}>
-            Discover genuine plots, houses, apartments, and lands in Hyderabad's most desirable neighborhoods.
+            From Jubilee Hills to Gachibowli, discover premium villas, bungalows, and apartments in Hyderabad's most prestigious neighborhoods.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-up" style={{ animationDelay: "0.3s" }}>
+            <Link
+              to="/contact"
+              className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-gradient-gold text-accent-foreground font-medium tracking-wider uppercase rounded transition-all duration-300 hover:shadow-hover hover:scale-105"
+            >
+              View Properties
+              <ArrowRight size={18} />
+            </Link>
             <Link
               to="/contact"
               className="inline-flex items-center justify-center gap-3 px-8 py-4 border-2 border-primary-foreground/30 text-primary-foreground font-medium tracking-wider uppercase rounded transition-all duration-300 hover:bg-primary-foreground/10 hover:border-primary-foreground/50"
