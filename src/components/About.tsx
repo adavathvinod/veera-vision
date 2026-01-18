@@ -38,7 +38,7 @@ const About = () => {
               <span className="block text-gold">Real Estate</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-              At Veera Properties, we understand that finding your dream home is more than a transaction—it's a life-changing decision. For over 15 years, we've been connecting discerning buyers with exceptional properties that reflect their aspirations and lifestyle.
+              At Veera Properties, we understand that finding your dream home is more than a transaction—it's a life-changing decision. For over 10 years, we've been connecting discerning buyers with exceptional properties that reflect their aspirations and lifestyle.
             </p>
             <p className="text-muted-foreground mb-8 leading-relaxed">
               Our curated approach ensures that every property in our portfolio meets the highest standards of quality, design, and location. From stunning waterfront villas to prestigious city penthouses, we specialize in properties that define luxury living.

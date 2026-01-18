@@ -49,7 +49,7 @@ const Index = () => {
                 <span className="block text-gold">Real Estate Partner</span>
               </h2>
               <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-                For over 15 years, Veera Properties has been connecting discerning buyers with exceptional homes across Hyderabad. From the prestigious lanes of Jubilee Hills to the IT corridors of Gachibowli, we understand the pulse of Hyderabad's luxury real estate market.
+                For over 10 years, Veera Properties has been connecting discerning buyers with exceptional homes across Hyderabad. From the prestigious lanes of Jubilee Hills to the IT corridors of Gachibowli, we understand the pulse of Hyderabad's luxury real estate market.
               </p>
               <Link
                 to="/about"
